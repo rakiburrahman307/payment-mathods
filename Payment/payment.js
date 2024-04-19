@@ -4,7 +4,33 @@ const SSLCommerzPayment = require("sslcommerz-lts");
 const axios = require("axios");
 const globals = require("node-global-storage");
 // package of all
+// testing number 
 
+
+// Checkout Demo
+// Go to https://merchantdemo.sandbox.bka.sh/frontend/checkout/version/1.2.0-beta
+// text number : 01619777282
+// Wallet Number: 01770618575
+// balance nai : 01823074817
+// OTP: 123456
+// Pin: 12121
+
+// testing number 
+
+// bkish credential ...................................
+
+// # Bkash payment request 
+// bkash_username = 'sandboxTokenizedUser02'
+// bkash_password = 'sandboxTokenizedUser02@12345'
+// bkash_api_key = '4f6o0cjiki2rfm34kfdadl1eqq'
+// bkash_secret_key = '2is7hdktrekvrbljjh44ll3d9l1dtjo4pasmjvs5vl5qr3fug4b'
+// callbackURL='http://localhost:5000'
+// bkash_grant_token_url = https://tokenized.sandbox.bka.sh/v1.2.0-beta/tokenized/checkout/token/grant
+// bkash_create_payment_url =  https://tokenized.sandbox.bka.sh/v1.2.0-beta/tokenized/checkout/create
+// bkash_execute_payment_url = https://tokenized.sandbox.bka.sh/v1.2.0-beta/tokenized/checkout/execute
+// bkash_refund_transaction_url = https://tokenized.sandbox.bka.sh/v1.2.0-beta/tokenized/checkout/payment/refund
+
+// bkish credential ...................................
 // middleware  bkash
 const bkashAuth = async (req, res, next) => {
   globals.unset("id_token");
